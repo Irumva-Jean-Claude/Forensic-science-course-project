@@ -31,7 +31,7 @@ function displaySlide() {
 
     if (currentSlide < slideCount) {
         // Construct the image path dynamically based on chapter and slide number
-        chapterImage.src = `Presentation${currentChapter + 1}/Slide${currentSlide + 1}.png`;
+        chapterImage.src = `./Presentation${currentChapter + 1}/Slide${currentSlide + 1}.png`;
     }
 }
 
